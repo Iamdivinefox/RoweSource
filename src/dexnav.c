@@ -2844,6 +2844,7 @@ bool8 DexNavTryMakeShinyMon(void)
     else if (chain > 10)
     {
         shinyRate = 1000;
+	chain     = 1;
     }
     
     for (i = 0; i < shinyRolls; i++)
