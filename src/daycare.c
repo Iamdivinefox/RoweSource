@@ -1027,17 +1027,17 @@ bool8 DaycareTryMakeShinyMon(void)
     shinyRolls = 1 + charmBonus;
 	
 	if(CaughtNum > 500)
-		probability = 5;
+		probability = 20;
 	else if(CaughtNum >= 400)
-		probability = 4;
+		probability = 15;
 	else if(CaughtNum >= 300)
-		probability = 3;
+		probability = 10;
 	else if(CaughtNum >= 200)
-		probability = 2;
+		probability = 5;
 	
     for (i = 0; i < shinyRolls; i++)
     {
-        if ((Random() % 8192) < probability)
+        if ((Random() % 4096) < probability)
             return TRUE;
     }
     
