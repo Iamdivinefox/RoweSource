@@ -2834,16 +2834,16 @@ bool8 DexNavTryMakeShinyMon(void)
     else if (chain > 400)
     {
         shinyRate = 350;
-        chain     = 200;
+        chain     = 100;
     }
     else if (chain > 200)
     {
         shinyRate = 250;
-        chain     = 100;
+        chain     = 50;
     }
-    else if (chain > 50)
+    else if (chain > 20)
     {
-        shinyRate = 10;
+        shinyRate = 100;
     }
     
     for (i = 0; i < shinyRolls; i++)
