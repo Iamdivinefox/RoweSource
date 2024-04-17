@@ -2828,20 +2828,20 @@ bool8 DexNavTryMakeShinyMon(void)
 
     if (chain > 500)
     {
-        shinyRate = 1000;
+        shinyRate = 200;
         chain     = 250;
     }
     else if (chain > 400)
     {
-        shinyRate = 500;
-        chain     = 100;
+        shinyRate = 100;
+        chain     = 200;
     }
     else if (chain > 200)
     {
-        shinyRate = 3000;
-        chain     = 10;
+        shinyRate = 50;
+        chain     = 100;
     }
-    else if (chain > 10)
+    else if (chain > 0)
     {
         shinyRate = 0;
     }
