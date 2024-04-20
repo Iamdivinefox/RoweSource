@@ -2070,7 +2070,7 @@ const struct Item gItems[] =
         .name = _("Nugget"),
 #endif
         .itemId = ITEM_NUGGET,
-        .price = 15000,
+        .price = 150000,
         .description = sNuggetDesc,
         .pocket = POCKET_ITEMS,
         .type = 4,
