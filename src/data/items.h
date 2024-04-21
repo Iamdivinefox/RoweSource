@@ -1938,7 +1938,7 @@ const struct Item gItems[] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Bonguri Blanco"),
-#else
+else 
         .name = _("White Apricorn"),
 #endif
         .itemId = ITEM_WHITE_APRICORN,
@@ -2070,7 +2070,7 @@ const struct Item gItems[] =
         .name = _("Nugget"),
 #endif
         .itemId = ITEM_NUGGET,
-        .price = 150000,
+        .price = 25000,
         .description = sNuggetDesc,
         .pocket = POCKET_ITEMS,
         .type = 4,
